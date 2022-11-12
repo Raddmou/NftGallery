@@ -1,0 +1,19 @@
+{
+  "name": "nftgallery",
+  "version": "1.0.0",
+  "description": "NFT Gallery App to filter and display owned NFT or a collection",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Raddmou/NftGallery.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Raddmou/NftGallery/issues"
+  },
+  "homepage": "https://github.com/Raddmou/NftGallery#readme"
+}
