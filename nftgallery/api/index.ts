@@ -13,7 +13,7 @@ export const nftAPI = {
         console.log("fetchNfts start");
         
         let nfts; 
-        const api_key = sanitizedConfig.ALCHEMY_API_KEY;
+        const api_key = "qPCQILIlqhvgkio2lAoouDHZkLQoAtN7";
         const baseURL = `https://eth-mainnet.g.alchemy.com/v2/${api_key}/getNFTs/`;
         var requestOptions = {
             method: 'GET'
@@ -32,7 +32,7 @@ export const nftAPI = {
 
         console.log("nfts: ", nfts)
 
-        const response = nfts.nfts.map((nft: FetchNftResponse) =>
+        const response = nfts.ownedNfts.map((nft: FetchNftResponse) =>
         {
             return mapper.mapToNft(nft)
         });
